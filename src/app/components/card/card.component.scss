@@ -1,0 +1,11 @@
+@import "../../allstyles.scss";
+
+.container {
+  background-color: lighten($color: $background, $amount: 10);
+  padding: 1rem;
+  border-radius: 5px;
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+}
